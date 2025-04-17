@@ -1,5 +1,6 @@
-var a = 37;
-console.log(a);
-
-var a = "prabhav";
-console.log(a);
+const data = {
+    name: "John Doe",
+    age: 30,
+    city: "New York"
+}
+console.log(data);

@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  .main-header {
+    background-color: #222;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 60px;
+    background-color: #0099cc;
+    color: white;
+  }
+  
+  .about, .projects, .contact, .schedule {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .projects article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  form input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    .hero {
+      padding: 30px;
+    }
+  }
+  
